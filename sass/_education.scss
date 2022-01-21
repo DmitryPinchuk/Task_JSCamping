@@ -1,0 +1,20 @@
+.education {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 600px 580px;
+    grid-template-rows: 830px 200px;
+
+    &__item {
+        margin-top: 30px;
+    }
+
+    // &__courses {
+    //     grid-column-start: 1/2;
+    //     grid-row-start: 1/2;
+    // }
+
+    // &__jobs {
+    //     grid-column-start: 2/3;
+    //     grid-row-start: 2/3;
+    // }
+}

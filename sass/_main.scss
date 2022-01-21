@@ -12,7 +12,6 @@
     }
 
     &__info {
-
         grid-column: 2/4;
         grid-row: 1/2;
         place-self: end start;
@@ -32,5 +31,13 @@
         margin-top: 50px;
         grid-column: 3/4;
         grid-row: 2/3;
+    }
+
+    &__about {
+        margin-top: 80px;
+
+        p {
+            margin-top: 30px;
+        }
     }
 }

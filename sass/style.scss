@@ -4,6 +4,7 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #F8FBFB;
 }
 
 .container {
@@ -14,14 +15,16 @@
 $main_color:#0D6064;
 $divider_color:#e5f2f3;
 
-
-
-
-
 .divider {
     width: 100%;
     border: 1px solid $divider_color;
+
+    &_short {
+        margin-top: 20px;
+        width: 80px;
+    }
 }
 
 @import 'main';
 @import 'title';
+@import 'education';
