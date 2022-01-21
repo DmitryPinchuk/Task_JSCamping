@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+$main_color:#0D6064;
+$divider_color:#e5f2f3;
+
+
+
+
+
+.divider {
+    width: 100%;
+    border: 1px solid $divider_color;
+}
+
+@import 'main';
+@import 'title';

@@ -1,0 +1,28 @@
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: $main_color;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: $main_color;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+p, a {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #000;
+    text-decoration: none;
+}

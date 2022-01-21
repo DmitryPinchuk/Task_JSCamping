@@ -1,0 +1,36 @@
+.main {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 500px 300px 380px;
+        grid-template-rows: 320px 280px;
+
+        img {
+            grid-column: 1/2;
+            grid-row: 1/3;
+            place-self: end start;
+        }
+    }
+
+    &__info {
+
+        grid-column: 2/4;
+        grid-row: 1/2;
+        place-self: end start;
+
+        .divider {
+            margin-top: 50px;
+        }
+    }
+
+    &__contacts {
+        margin-top: 50px;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    &__portfolio {
+        margin-top: 50px;
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+}
